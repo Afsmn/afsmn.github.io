@@ -1,0 +1,5 @@
+title: Global Site Group
+baseurl: ""
+#url: "http://yourdomain.com" # the base hostname & protocol for your site
+
+markdown: kramdown
