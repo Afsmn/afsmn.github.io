@@ -218,6 +218,45 @@ pre {
   color: #845d33;
 }
 
+.dark-violet {
+  color: #314055;
+}
+
+%div {
+  color: white;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 1px 2px 50px 3px rgba(0, 0, 0, 0.2);
+  margin: 0px 15px;
+  height: 60px;
+  line-height: 60px;
+}
+
+.div-salad {
+  @extend %div;
+  background: #9bbb59;
+}
+
+.div-emerald {
+  @extend %div;
+  background: #5cb565;
+}
+
+.div-blue-light {
+  @extend %div;
+  background: #5eafa6;
+}
+
+.div-violet-light {
+  @extend %div;
+  background: #6179a8;
+}
+
+.div-violet {
+  @extend %div;
+  background: #8064a2;
+}
+
 .bold {
   font-weight: bold;
 }
